@@ -49,7 +49,7 @@ class PrestamoController extends Controller
         $acciones = '';
 
         $acciones = '
-            <div class="btn-acciones">
+            <div class="btn-acciones mobile-prestamo-cont">
                 <div class="btn-circle">
                     <a href="'.$actualizar.'" class="btn btn-success" title="Actualizar">
                         <i class="far fa-edit"></i>
@@ -59,7 +59,7 @@ class PrestamoController extends Controller
                     </a>
                 </div>
             </div>
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-prestamo-cont-2">
                 <div class="btn-circle">
                     <a href="#'.$ruta.'" role="button" class="btn btn-danger" data-toggle="modal" title="Eliminar">
                             <i class="far fa-trash-alt"></i>

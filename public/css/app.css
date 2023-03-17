@@ -9995,3 +9995,81 @@ h3 {
     border-color: #dee2e6;
   }
 }
+
+
+/* Mobile Custom*/
+@media(max-width:480px){
+  p.areas-regresar, p.mobiliario-regresar, p.cursos-regresar, p.tickets-regresar {
+    text-align: center!important;
+    padding: 1em!important;
+  }
+  p.mobile-mod, p.proyectos-regresar, p.mob-tickets-btns{
+    text-align: center!important;
+  }
+  /* nav .navbar .links li{
+    display: flex!important;
+  } */
+  h5.mobile-h5{
+    text-align: center;
+  }
+  .mob-h2{
+    text-align: center!important;
+  }
+  table.prestamos-traslados td.dtr-control.sorting_1, table.prestamos-traslados td.dtr-control{
+    padding: 1em 2em!important;
+  }
+  h2.captura-mob-title h2.mob-h2-padd, h2.captickets-mob-title{
+    padding-left: .8em!important;
+  }
+  .mobiliario_list span.dtr-data {
+    display: table-caption!important;
+  }
+  .prestamos-traslados span.dtr-title {
+    display: table-caption!important;
+  }
+  .tickets-mki span.dtr-data {
+    display: table!important;
+    padding-right: 20em!important;
+  }
+}
+
+@media(max-width:768px){
+  table.prestamos-traslados td.dtr-control.sorting_1{
+    padding: 1em 2em!important;
+  }
+  h2.mob-h2-padd{
+    text-align: center!important;
+  }
+  div.row.paddings h2.mob-h2-padd {
+    padding-left: 2.7em!important;
+  }
+  p.padd-comp{
+    padding-left: 3.7em;
+  }
+  h5.mob-ops-h5{
+    padding-left: 1em;
+  }
+  .mobiliario_list span.dtr-data {
+    display: table-caption!important;
+  }
+}
+
+/* table.prestamos-traslados td.dtr-control.sorting_1{
+  padding: 1em 2em!important;
+} */
+
+@media(min-width:980px){
+  div.row.paddings{
+    padding: 1em;
+  } 
+  h5.mobile-h5.foot{
+    padding-left: 1.5em!important;
+  }
+  h2.mob-h2-padd{
+    padding-left: .8em;
+  }
+}
+
+h2.captura-mob-title, h2.mob-h2-padd{
+  padding-left: .8em!important;
+}

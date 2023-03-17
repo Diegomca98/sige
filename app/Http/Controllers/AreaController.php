@@ -38,7 +38,7 @@ class AreaController extends Controller
 
             $acciones =
                 '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-area-cont">
                     <div class="btn-circle">
                         <a href="' .
                 $actualizar .

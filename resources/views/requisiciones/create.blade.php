@@ -86,7 +86,7 @@
             <br>
             <div class="row g-3 align-items-center">
                 <br>
-                <h5>En caso de inconsistencias, favor de reportarlas.</h5>
+                <h5 class="mob-ops-h5">En caso de inconsistencias, favor de reportarlas.</h5>
                 <hr>
             </div>
     </div>

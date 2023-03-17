@@ -4,21 +4,21 @@
 @if(Auth::check() && (  Auth::user()->role =='admin' || Auth::user()->role =='cta' || Auth::user()->role =='auxiliar' || Auth::user()->role =='redes' || Auth::user()->role =='general' ))
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row paddings">
             @if (session('message'))
                 <div class="alert alert-success">
                     {{ session('message') }}
                 </div>
             @endif
-            <h2>Listado de Mobiliario </h2>
+            <h2 class="mob-h2-padd">Listado de Mobiliario </h2>
             <br>
-                <p align="right">
+                <p class="padd-comp" align="right">
                     @if(Auth::check() && Auth::user()->role !='general')
                     <a href="{{ route('mobiliarios.create') }}" class="btn btn-success">Capturar Mobiliario</a>
                     @endif
                     <a href="{{ route('home') }}" class="btn btn-primary">< Regresar</a>
                 </p>
-            <table id="example" class="table table-striped table-bordered" style="width:100%">
+            <table id="example" class="table table-striped table-bordered mobiliario_list" style="width:100%">
                 <thead>
                 <tr>
                     @if(Auth::check() && Auth::user()->role !='general')
@@ -46,7 +46,7 @@
             </table>
 
         </div>
-        <p>
+        <p class="mobiliario-regresar">
             <a href="{{ route('home') }}" class="btn btn-primary">Regresar</a>
         </p>
     </div>

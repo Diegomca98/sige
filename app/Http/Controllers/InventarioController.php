@@ -141,7 +141,7 @@ class InventarioController extends Controller
 
             $acciones =
                 '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-inventario-cont">
                     <div class="btn-circle">
                         <a href="' .
                 $actualizar .

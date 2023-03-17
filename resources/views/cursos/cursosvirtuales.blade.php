@@ -12,7 +12,7 @@
                         </div>
                     @endif
                     <h2>Cursos </h2>
-                    <p align="right">
+                    <p class="mobile-mod" align="right">
                         @if (Auth::check() && Auth::user()->role == 'admin')
                         	<a href="{{ route('cursos.create') }}" class="btn btn-success">
                             		<i class="fa fa-plus"></i> Capturar Curso
@@ -113,7 +113,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p>
+                    <p class="cursos-regresar">
                         <a href="{{ route('home') }}" class="btn btn-primary">
                             < Regresar</a>
                     </p>

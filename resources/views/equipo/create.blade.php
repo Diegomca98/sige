@@ -9,7 +9,7 @@
                 </div>
             @endif
             <div class="row">
-                <h2>Captura de Equipos</h2>
+                <h2 class="captura-mob-title">Captura de Equipos</h2>
                 <hr>
                 <script type="text/javascript">
 
@@ -188,7 +188,7 @@
             <div class="row align-items-center">
 
                 <br>
-                <h5>En caso de inconsistencias enviar un correo a victor.ramirez@academicos.udg.mx</h5>
+                <h5 class="mobile-h5">En caso de inconsistencias enviar un correo a victor.ramirez@academicos.udg.mx</h5>
                 <hr>
 
             </div>

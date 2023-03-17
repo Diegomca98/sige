@@ -219,7 +219,7 @@
             <div class="row g-3 align-items-center">
 
                 <br>
-                <h5>En caso de inconsistencias enviar un correo a victor.ramirez@academicos.udg.mx</h5>
+                <h5 class="mobile-h5">En caso de inconsistencias enviar un correo a victor.ramirez@academicos.udg.mx</h5>
                 <hr>
 
             </div>

@@ -1,6 +1,11 @@
+@media (max-width:480px) {
+    table#example .btn-acciones{
+        padding-left: 1.5em!important;
+    }    
+}
 .btn-acciones {
     width: 70% !important;
-    padding: 10px !important;
+    padding: 10px 1.5em !important;
     display: flex;  
 }
 

@@ -53,7 +53,7 @@ class PersonalController extends Controller
 
                 $acciones = `
                 @can('cNormal_PERSONAL#editar')
-                    <div class="btn-acciones">
+                    <div class="btn-acciones mobile-personal-cont">
                         <div class="btn-circle">
                             <a href="'.$actualizar.'" class="btn btn-success" title="Actualizar">
                                 <i class="far fa-edit"></i>
@@ -279,7 +279,7 @@ class PersonalController extends Controller
             $recibo = route('imprimirpersonal', $value['id']);
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-personal-cont-2">
                     <div class="btn-circle">
                         <a href="'.$actualizar.'" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>

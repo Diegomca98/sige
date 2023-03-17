@@ -34,7 +34,7 @@ class TecnicoController extends Controller
             $actualizar =  route('tecnicos.edit', $value['id']);
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-tecnico-cont">
                     <div class="btn-circle">
                         <a href="'.$actualizar.'" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>

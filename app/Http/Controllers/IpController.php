@@ -60,7 +60,7 @@ class IpController extends Controller
             $actualizar =  route('ips.edit', $value['id']);
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-ip-cont">
                     <div class="btn-circle">
                     <a href="' . $actualizar . '" class="btn btn-success" title="Actualizar">
                     <i class="far fa-edit"></i>
@@ -129,7 +129,7 @@ class IpController extends Controller
             $actualizar =  route('ips.edit', $value['id']);
             
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-ip-cont-2">
                     <div class="btn-circle">
                         <a href="' . $actualizar . '"  class="btn btn-success" title="Actualizar"">
                             <i class="far fa-edit"></i>

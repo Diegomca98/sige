@@ -182,7 +182,7 @@
 
                 <br>
                 <hr>
-                <h5>Coordinación de Tecnologías para el Aprendizaje. CUCSH</h5>
+                <h5 class="mobile-h5">Coordinación de Tecnologías para el Aprendizaje. CUCSH</h5>
 
 
             </div>

@@ -82,7 +82,7 @@ class CursoController extends Controller
             $actualizar =  route('cursos.edit', $value['id']);
             if(Auth::user()->role != 'general') {
                 $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-curso-cont">
                     <div class="btn-circle">
                         <a href="' . $actualizar . '" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>
@@ -174,7 +174,7 @@ public function cargarDTLabs($consulta)
 
             if(Auth::user()->role != 'general') {
                 $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-curso-cont-2">
                     <div class="btn-circle">
                         <a href="' . $actualizar . '" role="button" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>

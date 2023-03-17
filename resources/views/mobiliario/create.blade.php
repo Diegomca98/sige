@@ -9,7 +9,7 @@
                 </div>
             @endif
             <div class="row">
-                <h2>Captura de Mobiliario</h2>
+                <h2 class="mob-h2-padd">Captura de Mobiliario</h2>
                 <hr>
                 <script type="text/javascript">
 
@@ -114,7 +114,7 @@
 
                 <br>
                 <hr>
-                <h5>Coordinación de Tecnologías para el Aprendizaje. CUCSH</h5>
+                <h5 class="mobile-h5 foot">Coordinación de Tecnologías para el Aprendizaje. CUCSH</h5>
 
 
             </div>

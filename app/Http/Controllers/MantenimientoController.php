@@ -61,7 +61,7 @@ class MantenimientoController extends Controller
             $agregarequipo = route('mantenimiento.show', $value['id']);
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-mantenimiento-cont">
                     <div class="btn-circle">
                         <a href="' . $actualizar . '" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>

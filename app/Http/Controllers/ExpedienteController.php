@@ -154,7 +154,7 @@ class ExpedienteController extends Controller
          $recibo = route('recepcionEquipo',  $value['ticket_id']);
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-expediente-cont">
                     <div class="btn-circle">
                         <a href="'.$actualizar.'" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>

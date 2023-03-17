@@ -165,7 +165,7 @@
             <div class="row align-items-center">
                 <br>
                 <div class="col-12 ml-3">
-                    <h5>En caso de inconsistencias, favor de reportarlas.</h5>
+                    <h5 class="mob-ops-h5">En caso de inconsistencias, favor de reportarlas.</h5>
                 </div>
                 <hr>
             </div>

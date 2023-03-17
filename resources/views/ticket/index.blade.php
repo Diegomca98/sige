@@ -55,7 +55,7 @@
                         </div>
                     @endif
                     <h2>Tickets </h2>
-                    <p align="right">
+                    <p class="mob-tickets-btns" align="right">
                         <a href="{{ route('tickets.create') }}" class="btn btn-success">Capturar Ticket</a>
                         <a href="{{ route('home') }}" class="btn btn-primary">Regresar</a>
                     </p>
@@ -126,7 +126,7 @@
             </form>
             <div class="row g-3 align-items-center">
                 <div class="col">
-                    <table id="example" class="display responsive table-bordered" style="width:100%">
+                    <table id="example" class="display responsive table-bordered ticket-table" style="width:100%">
                         <thead>
                             <tr>
                                 <th>#</th>
@@ -235,7 +235,7 @@
                     </div>
                 </div>
             @endif
-            <p>
+            <p class="tickets-regresar">
                 <a href="{{ route('home') }}" class="btn btn-primary">
                     < Regresar</a>
             </p>

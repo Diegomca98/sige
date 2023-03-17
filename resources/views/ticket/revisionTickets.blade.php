@@ -12,7 +12,7 @@
                     </div>
                 @endif
                 <h2>Tickets MKI</h2>
-                    <p align="right">
+                    <p class="mob-tickets-btns" align="right">
 
                         
 
@@ -79,7 +79,7 @@
 
     </form>
         <div class="row g-3 align-items-center">
-            <table id="example" class="table table-striped table-bordered" style="width:100%">
+            <table id="example" class="table table-striped table-bordered tickets-mki" style="width:100%">
                 <thead>
                 <tr>
                     <th>Acciones</th>
@@ -104,7 +104,7 @@
             </table>
 
         </div>
-        <p>
+        <p class="tickets-regresar">
             <a href="{{ route('home') }}" class="btn btn-primary">< Regresar</a>
         </p>
     </div>

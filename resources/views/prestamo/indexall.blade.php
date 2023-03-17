@@ -13,13 +13,13 @@
             @endif
             <h2>Pr&eacute;stamos / Traslados de Equipos</h2>
             <br>
-                <p align="right">
+                <p class="mobile-mod" align="right">
                     {{--<a href="{{ route('prestamos.create') }}" class="btn btn-success">Capturar Pr�stamo</a>--}}
                     <a href="{{ route('home') }}" class="btn btn-primary">< Regresar</a>
                 </p>
 
 
-            <table id="example" class="table table-striped table-bordered" style="width:100%">
+            <table id="example" class="table table-striped table-bordered prestamos-traslados" style="width:100%">
                 <thead>
                 <tr>
                     
@@ -43,7 +43,7 @@
             </table>
 
 
-            <p>
+            <p class="areas-regresar">
                 <a href="{{ route('home') }}" class="btn btn-primary">< Regresar</a>
             </p>
 </div>

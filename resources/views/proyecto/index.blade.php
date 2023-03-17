@@ -14,12 +14,12 @@
                     <h2>Proyectos</h2>
                 </div>
                 <div class="col d-flex justify-content-end mb-3">
-                    <a href="{{ route('proyectos.create') }}" class="btn btn-success mr-3">
+                    <p class="mobile-mod"><a href="{{ route('proyectos.create') }}" class="btn btn-success mr-3">
                         Capturar Proyecto
                     </a>
                     <a href="{{ route('home') }}" class="btn btn-primary">
                         Regresar
-                    </a>
+                    </a></p>
                 </div>
             </div>
         </div>
@@ -64,9 +64,9 @@
                 </div>
             </div>
 
-            <a href="{{ route('home') }}" class="btn btn-primary">
+            <p class="proyectos-regresar"><a href="{{ route('home') }}" class="btn btn-primary">
                 Regresar
-            </a>
+            </a></p>
         </div>
 
         {{-- Modal eliminar --}}

@@ -9,10 +9,10 @@
             </div>
             <ul class="links">
                 @can('AULAS_AREAS#ver')
-                <li>
-                    <a href="#">Áreas</a>
+                <li class="subnav">
+                    <a class="subnavbtn" href="#">Áreas</a>
                     <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
-                    <ul class="htmlCss-sub-menu sub-menu">
+                    <ul class="htmlCss-sub-menu sub-menu subnav-content">
                         <li><a href="{{ route('areas.create') }}">Captura Área</a></li>
                         <li><a href="{{ route('areas.index') }}">Consulta Áreas</a></li>
                         <li><a href="{{ route('historial-areas') }}">Estadísticas</a></li>
@@ -50,7 +50,7 @@
                 @endcan
 
                 @can('ESTADISTICAS#ver')
-                {{--
+                <!-- {{-- -->
           <li>
             <a href="#">Estadisticas</a>
           <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
@@ -58,7 +58,7 @@
               <li><a href="{{ route('estadisticas') }}">Generales</a></li>
             </ul>
             </li>
-            --}}
+            <!-- --}} -->
             @endcan
 
             @can('TICKETS#ver')
@@ -101,7 +101,7 @@
             @endcan
 
             @can('LOGS#crear')
-            {{--
+            <!-- {{-- -->
           <li>
             <a href="#">Logs</a>
           <i class='bx bxs-chevron-down logs-arrow arrow  '></i>
@@ -109,7 +109,7 @@
                 <li><a href="{{ route('logs.index') }}">Consultar Logs</a></li>
             </ul>
             </li>
-            --}}
+            <!-- --}} -->
             @endcan
 
             @can('PROYECTOS#ver')

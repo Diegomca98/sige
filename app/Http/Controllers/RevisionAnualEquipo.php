@@ -36,7 +36,7 @@ class RevisionAnualEquipo extends Controller
 	        $historial = route('historial', $value['id']);
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-revanualeq-cont">
                     <div class="btn-circle">
                         <a href="'.$actualizar.'" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>

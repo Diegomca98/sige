@@ -377,7 +377,7 @@ public function busquedaEquiposPrestamo(Request $request){
             $eliminar = route('delete-equipo', $value['id']);
             if(Auth::user()->role != 'general') {
                 $acciones = '
-			<div class="btn-acciones">
+			<div class="btn-acciones mobile-equipo-cont">
                     	    <div class="btn-circle">
 				<a href="' . $actualizar . '" title="Actualizar">
 				<span class="text-success"><span class="material-icons">edit</span></span>
@@ -519,7 +519,7 @@ public function busquedaEquiposPrestamo(Request $request){
             $actualizar =  route('equipo.edit_switch', $value['id']);
 
             $acciones = '
-			<div class="btn-acciones">
+			<div class="btn-acciones mobile-equipo-cont-2">
                     	    <div class="btn-circle">
 				<a href="' . $actualizar . '" title="Actualizar">
                 <span class="text-success"><span class="material-icons">edit</span></span>

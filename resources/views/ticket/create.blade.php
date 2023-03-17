@@ -15,7 +15,7 @@
                 </div>
             @endif
             <div class="row">
-                <h2>Captura de Tickets</h2>
+                <h2 class="captickets-mob-title">Captura de Tickets</h2>
                 <hr>
                 <script type="text/javascript">
                     $(document).ready(function() {
@@ -150,7 +150,7 @@
             <div class="row g-3 align-items-center justify-content-end">
 
                 <br>
-                <h5>En caso de inconsistencias, favor de reportarlas.</h5>
+                <h5 class="mob-ops-h5">En caso de inconsistencias, favor de reportarlas.</h5>
                 <hr>
 
             </div>

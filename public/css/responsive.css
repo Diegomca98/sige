@@ -1,0 +1,9 @@
+@media(max-width:480px){
+    #areas p.areas-regresar {
+        text-align: center!important;
+        padding: 1em!important;
+    }
+    #areas p.mobile-mod{
+        text-align: center!important;
+    }
+}

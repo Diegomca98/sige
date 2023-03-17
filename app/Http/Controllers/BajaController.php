@@ -34,7 +34,7 @@ class BajaController extends Controller
          
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-baja-cont">
                     <div class="btn-circle">
                         <a href="'.$actualizar.'" role="button" class="btn btn-success" title="Actualizar">
                             <i class="far fa-edit"></i>
@@ -292,7 +292,7 @@ class BajaController extends Controller
          
 
             $acciones = '
-                <div class="btn-acciones">
+                <div class="btn-acciones mobile-baja-cont-2">
                     <div class="btn-circle">
                         
                         

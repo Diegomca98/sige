@@ -25,11 +25,11 @@
 	</div>
     </div>
 <div class="row">
-		<div class="col-12">
+		<div id="areas" class="col-12 areas">
 
             <h2>Listado de Áreas </h2>
             <br>
-                <p align="right">
+                <p class="mobile-mod" align="right">
                     <a href="{{ route('areas.create') }}" class="btn btn-success">Capturar Área</a>
                     <a href="{{ route('home') }}" class="btn btn-primary">< Regresar</a>
                 </p>
@@ -57,7 +57,7 @@
             </table>
  </div>
         </div>
-        <p>
+        <p class="areas-regresar">
             <a href="{{ route('home') }}" class="btn btn-primary">< Regresar</a>
         </p>
     </div>
